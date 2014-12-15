@@ -1,7 +1,7 @@
 superagent-wsse [![Build Status](https://travis-ci.org/devotis/superagent-wsse.svg)](https://travis-ci.org/devotis/superagent-wsse)
 ===============
 
-A superagent plugin that generates headers for WSSE authentication
+A [superagent](https://github.com/visionmedia/superagent) plugin that generates headers for WSSE authentication.
 
 ##Install##
 Install with [npm](http://github.com/isaacs/npm)
