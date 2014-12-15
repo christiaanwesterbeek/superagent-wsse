@@ -30,8 +30,6 @@ request
 ```
 
 ##About WSSE##
-
-##About WSSE##
 WSSE is a family of open security specifications for web services, specifically SOAP web services. However, the Username Token algorithm is not SOAP-specific; it can be easily adapted to work within the HTTP authentication framework.
 
 An HTTP request to a backend that uses WSSE authentication.
