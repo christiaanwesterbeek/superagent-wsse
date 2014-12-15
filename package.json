@@ -10,7 +10,7 @@
   "version": "0.0.1",
   "repository": {
     "type" : "git",
-    "url": "https://github.com/devotis/superagent-wsse"
+    "url"  : "https://github.com/devotis/superagent-wsse"
   },
   "main": "index.js",
   "engines": {
@@ -18,15 +18,13 @@
   },
   "homepage": "https://github.com/devotis/superagent-wsse",
   "bugs": {
-    "url" : "https://github.com/devotis/superagent-wsse/issues",
+    "url"   : "https://github.com/devotis/superagent-wsse/issues",
     "email" : "chris@devotis.nl"
   },
-  "dependencies": {
-    "wsse": "0.0.3"
-  },
   "devDependencies": {
-    "mocha": "2.0.x",
-    "should": "4.3.x"
+    "mocha"     : "2.0.x",
+    "should"    : "4.3.x",
+    "superagent": "*"
   },  
   "scripts": {
     "test": "mocha"
