@@ -1,0 +1,34 @@
+{
+  "name": "superagent-wsse",
+  "description": "A superagent plugin that generates headers for WSSE authentication.",
+  "author": "Christiaan Westerbeek <chris@devotis.nl>",
+  "keywords": [
+    "superagent",
+    "wsse",
+    "authentication"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/devotis/superagent-wsse"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/devotis/superagent-wsse",
+  "bugs": {
+    "url" : "https://github.com/devotis/superagent-wsse/issues",
+    "email" : "chris@devotis.nl"
+  },
+  "dependencies": {
+    "wsse": "0.0.3"
+  },
+  "devDependencies": {
+    "mocha": "2.0.x",
+    "should": "4.3.x"
+  },  
+  "scripts": {
+    "test": "mocha"
+  }
+}
