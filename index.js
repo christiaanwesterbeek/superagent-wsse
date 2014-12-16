@@ -27,7 +27,6 @@ module.exports = function(config) {
   return function (request) {
     request.set('Authorization', 'WSSE profile="UsernameToken"');
     request.set('X-WSSE',        createWSSEHeader(config));
-    request.set('Accept',        'application/json');
 
     return request;
   };
