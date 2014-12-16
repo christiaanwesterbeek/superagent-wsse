@@ -1,4 +1,7 @@
-superagent-wsse [![Build Status](https://travis-ci.org/devotis/superagent-wsse.svg)](https://travis-ci.org/devotis/superagent-wsse)
+[![Build Status](https://travis-ci.org/devotis/superagent-wsse.svg)](https://travis-ci.org/devotis/superagent-wsse)
+[![npm version](https://badge.fury.io/js/superagent-wsse.svg)](https://www.npmjs.org/package/superagent-wsse)
+
+superagent-wsse
 ===============
 
 A [superagent](https://github.com/visionmedia/superagent) plugin that generates headers for WSSE authentication.
